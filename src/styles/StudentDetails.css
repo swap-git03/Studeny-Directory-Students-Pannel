@@ -1,0 +1,31 @@
+.student-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.student-image {
+  width: 250px;
+  height: 250px;
+  border: 4px solid #0d6efd;
+  transition: transform 0.3s ease;
+}
+.student-image:hover {
+  transform: scale(1.05);
+}
+
+.status-badge.active {
+  background-color: #198754; /* bootstrap green */
+}
+.status-badge.inactive {
+  background-color: #6c757d; /* bootstrap gray */
+}
+
+.back-btn {
+  transition: transform 0.2s ease;
+}
+.back-btn:hover {
+  transform: translateX(-5px);
+}
